@@ -1,0 +1,40 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/lib/css/bootstrap.css",
+    "inputFiles": [
+      "node_modules/bootstrap/dist/css/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/fontawesome/font.css",
+    "inputFiles": [
+      "node_modules/font-awesome/css/font-awesome.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery-val/jquery.validate.js",
+    "inputFiles": [
+      "node_modules/jquery-validation/dist/jquery.validate.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery-val-unob/jquery.validate.unobtrusive.js",
+    "inputFiles": [
+      "node_modules/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/jquery/jquery.js",
+    "inputFiles": [
+      "node_modules/jquery/dist/jquery.js"
+    ],
+
+
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  }
+]
